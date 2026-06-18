@@ -22,6 +22,7 @@ dependencies {
         exclude group: "com.google.guava", module: "guava"
         constraints {
 	       implementation("org.postgresql:postgresql:42.6.0.jar")
+           implementation("io.netty:netty-handler:4.1.135.Final")
         }
     }
 }
